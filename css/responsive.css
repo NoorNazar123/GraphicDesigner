@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+  .arrow-div {
+    display: none;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+  }
+  section img {
+    width: 150px;
+    height: 50px;
+  }
+  nav {
+    justify-content: start;
+  }
+  ul {
+    gap: 0rem;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    white-space: wrap;
+    text-align: center;
+    line-height: 60px;
+    padding: 0 10x;
+  }
+
+  #home {
+    margin-top: 2rem;
+  }
+  .arrow-div {
+    margin: 0 auto;
+    bottom: -40px;
+    right: 10rem;
+  }
+  #div1 {
+    display: none;
+  }
+  #about {
+    margin-top: 2rem;
+  }
+  #about p {
+    font-size: 1.5rem;
+    font-size: 100;
+    line-height: 45px;
+    text-align: center;
+  }
+  .exper-div {
+    background-color: black;
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 15px;
+    margin: 3rem 0;
+  }
+
+  #Expert {
+    font-size: 6vw;
+    font-weight: 900;
+    margin-top: 0.1rem;
+  }
+  .expert-software {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  .software {
+    padding: 5px 15px;
+    margin: 10px 10px;
+  }
+  /* -----Project---------- */
+  #two {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+
+    margin-top: 0.3rem;
+  }
+  .overlay {
+    display: none;
+  }
+  .textarea {
+    width: 100%;
+  }
+  .textarea h1 {
+    font-size: 10vw;
+  }
+
+  .textarea p {
+    font-size: 4vw;
+    padding: 10px 0;
+    width: 100%;
+  }
+  .hidden {
+    display: none;
+  }
+  #myWorkRender {
+    display: block;
+  }
+  #myWorkRender p {
+    padding: 20px 40px;
+    font-size: 24px;
+  }
+  /* footer */
+  #footer-icon a {
+    margin: 0 1rem;
+  } 
+}
