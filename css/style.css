@@ -124,7 +124,7 @@ a:hover {
 }
 .icon-hover {
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 2rem; 
   transition: color 1s ease, transform 0.3s ease;
   display: inline-block;  
 }
