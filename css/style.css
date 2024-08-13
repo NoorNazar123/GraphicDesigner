@@ -124,14 +124,14 @@ a:hover {
 }
 .icon-hover {
   letter-spacing: 1px;
-  transform: scale(2);
+  font-size: 2rem;
   transition: color 1s ease, transform 0.3s ease;
-  display: inline-block; /* Ensure the anchor behaves like a block-level element for scaling */
+  display: inline-block;  
 }
 
-.icon-hover:hover {
-  color: #fafafa84;
-  transform: scale(3); /* Scales the element to 1.4 times its size */
+.icon-hover:hover {     
+  color: #545454a5;
+  transform: scale(3rem); 
 }
 
 /* -------------------about----------------------------- */
@@ -309,9 +309,6 @@ footer {
   justify-content: center;
   align-items: center;
   min-height: 40vh;
-}
-.footer-icon a {
-  margin: 0 4rem;
 }
 
 .footer-develop {
